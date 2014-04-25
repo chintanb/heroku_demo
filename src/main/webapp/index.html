@@ -87,6 +87,7 @@
         }
 
         function showRestResults(headerText, headerClass, bodyText) {
+        	console.log(bodyText);
             $('#rest-result-header-text').text(headerText);
             $('#rest-result-header').removeClass('alert-error').removeClass('alert-success');
             $('#rest-result-header').addClass(headerClass);
